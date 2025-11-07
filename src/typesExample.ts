@@ -39,7 +39,7 @@ interface User {
   email: string;
 }
 
-const user1: User = {
+export const user1: User = {
   id: 1,
   name: "Anna",
   email: "anna@example.com",

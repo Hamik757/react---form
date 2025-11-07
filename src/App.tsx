@@ -22,6 +22,7 @@
 
 import React from "react";
 import UserCard from "./UserCard"; // ներմուծում ենք կոմպոնենտը
+import Header from "./components/Header";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
       {/* Օգտագործում ենք կոմպոնենտը */}
       <UserCard name="Lilit" age={22} isOnline={true} />
       <UserCard name="Aram" age={28} isOnline={false} />
+      <Header title="Header"/>
     </div>
   );
 }
